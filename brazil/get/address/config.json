@@ -1,0 +1,15 @@
+{
+  "dockerImageBuilder": "mcr.microsoft.com/dotnet/core/sdk:3.1",
+  "inputs": [
+    {
+      "cache": {
+        "active": true,
+        "newLabel": "Type new value. ",
+        "qty": 6
+      },
+      "label": "CEP : ",
+      "name": "CEP",
+      "type": "text"
+    }
+  ]
+}
