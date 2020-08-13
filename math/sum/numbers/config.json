@@ -1,0 +1,33 @@
+{
+  "dockerImageBuilder": "chiaretto/dotnet-core-debian-buildessential:3.1",
+  "inputs": [
+    {
+      "cache": {
+        "active": true,
+        "newLabel": "Type new value. ",
+        "qty": 6
+      },
+      "label": "First number : ",
+      "name": "NUMBER_ONE",
+      "type": "text"
+    },
+    {
+      "default": "1",
+      "label": "Seconde number : ",
+      "name": "NUMBER_TWO",
+      "type": "text"
+    },
+    {
+      "default": "false",
+      "items": [
+        "SUM",
+        "MULTIPLY",
+        "SUBTRACT",
+        "DIVIDE"
+      ],
+      "label": "Operation: ",
+      "name": "OPERATION",
+      "type": "text"
+    }
+  ]
+}
